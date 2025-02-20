@@ -1,5 +1,5 @@
-#ifndef UTIL_RANDOM_H
-#define UTIL_RANDOM_H
+#ifndef RANDOM_H
+#define RANDOM_H
 
 #include <vector>
 #include <stdexcept>
@@ -26,4 +26,4 @@ inline std::vector<unsigned char> GenerateCryptographicallySecureRandomNumber(si
     return random_value;
 }
 
-#endif // UTIL_RANDOM_H
+#endif // RANDOM_H

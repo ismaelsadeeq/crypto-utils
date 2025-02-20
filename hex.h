@@ -1,5 +1,5 @@
-#ifndef UTIL_HEX_H
-#define UTIL_HEX_H
+#ifndef HEX_H
+#define HEX_H
 
 #include <sstream>
 #include <string>
@@ -42,4 +42,4 @@ std::vector<unsigned char> from_hex(const std::string& hex_str) {
     return bytes; // Return the vector of bytes
 }
 
-#endif // UTIL_HEX_H
+#endif // HEX_H
