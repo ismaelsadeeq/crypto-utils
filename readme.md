@@ -1,5 +1,5 @@
 
-This repository contains cryptography and crypto-utilsity functions.  
+This repository contains cryptography utility functions.  
 
 #### **random.h**  
 
